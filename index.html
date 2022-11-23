@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -99,13 +100,22 @@
                 <h2 class="section-mid">Чим ми займаємося</h2>
             <ul class="images list">
                 <li>
-                    <img src="./image/keyboard.jpg" alt="клавіатура" width="370" class="images-pic">
+                    <div class="images-middle-wrap">
+                        <img src="./image/keyboard.jpg" alt="клавіатура" width="370" class="images-pic">
+                    <p class="images-middle-text">десктопні додатки</p>
+                    </div>
                 </li>
                 <li>
-                    <img src="./image/imgtelephone.jpg" alt="телефон" width="370" class="images-pic">
+                    <div class="images-middle-wrap">
+                        <img src="./image/imgtelephone.jpg" alt="телефон" width="370" class="images-pic">
+                    <p class="images-middle-text">мобільні додатки</p>
+                    </div>
                 </li>
                 <li>
-                    <img src="./image/imggradient.jpg" alt="градіент" width="370" class="images-last">
+                    <div class="images-middle-wrap">
+                        <img src="./image/imggradient.jpg" alt="градіент" width="370" class="images-last">
+                    <p class="images-middle-text">дизайнерські рішення</p>
+                    </div>
                 </li>
             </ul>
             </div>
@@ -374,5 +384,15 @@
             </div>
         </div>
     </footer>
+    <div class="backdrop">
+        <div class="modal">
+            <button type="button" class="modal-close">
+                <svg>
+                    <use href="./"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
